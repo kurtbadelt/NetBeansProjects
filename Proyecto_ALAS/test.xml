@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="LittleEndianExplicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="MetaElementGroupLength">218</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="28" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.1.2</element>
+<element tag="0002,0003" vr="UI" vm="1" len="46" name="MediaStorageSOPInstanceUID">1.2.840.113681.2229469866.2110.3528445191.53.1</element>
+<element tag="0002,0010" vr="UI" vm="1" len="20" name="TransferSyntaxUID">1.2.840.10008.1.2.1</element>
+<element tag="0002,0012" vr="UI" vm="1" len="28" name="ImplementationClassUID">1.2.276.0.7238010.5.0.3.5.4</element>
+<element tag="0002,0013" vr="SH" vm="1" len="6" name="ImplementationVersionName">OSIRIX</element>
+<element tag="0002,0016" vr="AE" vm="1" len="10" name="SourceApplicationEntityTitle">canpacsFIR</element>
+<element tag="0002,0100" vr="UI" vm="1" len="10" name="PrivateInformationCreatorUID">ANDRESLARA</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2.1" name="LittleEndianExplicit">
+<element tag="0008,0005" vr="CS" vm="1" len="10" name="SpecificCharacterSet">ISO_IR 100</element>
+<element tag="0008,0008" vr="CS" vm="2" len="18" name="ImageType">DERIVED\SECONDARY</element>
+<element tag="0008,0016" vr="UI" vm="1" len="28" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.1.2</element>
+<element tag="0008,0018" vr="UI" vm="1" len="46" name="SOPInstanceUID">1.2.840.113681.2229469866.2110.3528445191.53.1</element>
+<element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20121023</element>
+<element tag="0008,0021" vr="DA" vm="1" len="8" name="SeriesDate">20121023</element>
+<element tag="0008,0022" vr="DA" vm="1" len="8" name="AcquisitionDate">20121023</element>
+<element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20121023</element>
+<element tag="0008,0030" vr="TM" vm="1" len="6" name="StudyTime">075030</element>
+<element tag="0008,0031" vr="TM" vm="1" len="6" name="SeriesTime">075030</element>
+<element tag="0008,0032" vr="TM" vm="1" len="6" name="AcquisitionTime">075117</element>
+<element tag="0008,0033" vr="TM" vm="1" len="6" name="ContentTime">075117</element>
+<element tag="0008,0050" vr="SH" vm="1" len="10" name="AccessionNumber">000072280</element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">MG</element>
+<element tag="0008,0061" vr="CS" vm="1" len="2" name="ModalitiesInStudy">MG</element>
+<element tag="0008,0068" vr="CS" vm="1" len="16" name="PresentationIntentType">FOR PRESENTATION</element>
+<element tag="0008,0070" vr="LO" vm="1" len="14" name="Manufacturer">HOLOGIC, Inc.</element>
+<element tag="0008,0080" vr="LO" vm="1" len="34" name="InstitutionName">INSTITUTO NACIONAL DE CANCEROLOGIA</element>
+<element tag="0008,0081" vr="ST" vm="1" len="20" name="InstitutionAddress">AV. SAN FERNANDO 22</element>
+<element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysiciansName"></element>
+<element tag="0008,1010" vr="SH" vm="1" len="10" name="StationName">selenia_01</element>
+<element tag="0008,1030" vr="LO" vm="1" len="30" name="StudyDescription">Unilateral Mammography, Right</element>
+<element tag="0008,103e" vr="LO" vm="1" len="4" name="SeriesDescription">R CC</element>
+<element tag="0008,1048" vr="PN" vm="0" len="0" name="PhysiciansOfRecord"></element>
+<element tag="0008,1060" vr="PN" vm="0" len="0" name="NameOfPhysiciansReadingStudy"></element>
+<element tag="0008,1070" vr="PN" vm="1" len="8" name="OperatorsName">ADRIANA</element>
+<element tag="0008,1080" vr="LO" vm="0" len="0" name="AdmittingDiagnosesDescription"></element>
+<element tag="0008,1090" vr="LO" vm="1" len="14" name="ManufacturersModelName">Lorad Selenia</element>
+<sequence tag="0008,1110" vr="SQ" card="0" len="0" name="ReferencedStudySequence">
+</sequence>
+<element tag="0008,2111" vr="ST" vm="1" len="14" name="DerivationDescription">LORAD IP 4.9.0</element>
+<sequence tag="0008,2112" vr="SQ" card="1" len="110" name="SourceImageSequence">
+<item card="3" len="102">
+<element tag="0008,1150" vr="UI" vm="1" len="30" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.1.2.1</element>
+<element tag="0008,1155" vr="UI" vm="1" len="44" name="ReferencedSOPInstanceUID">1.2.840.113681.2229469866.2110.3528445191.53</element>
+<element tag="0028,135a" vr="CS" vm="1" len="4" name="SpatialLocationsPreserved">YES</element>
+</item>
+</sequence>
+<sequence tag="0008,2218" vr="SQ" card="1" len="50" name="AnatomicRegionSequence">
+<item card="3" len="42">
+<element tag="0008,0100" vr="SH" vm="1" len="8" name="CodeValue">T-04000</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">SNM3</element>
+<element tag="0008,0104" vr="LO" vm="1" len="6" name="CodeMeaning">Breast</element>
+</item>
+</sequence>
+<element tag="0010,0010" vr="PN" vm="1" len="22" name="PatientsName">TREJO PACHECO^DOLORES</element>
+<element tag="0010,0020" vr="LO" vm="1" len="10" name="PatientID">000072280</element>
+<element tag="0010,0021" vr="LO" vm="1" len="16" name="IssuerOfPatientID">IMSINCAN_ISSUER</element>
+<element tag="0010,0030" vr="DA" vm="1" len="8" name="PatientsBirthDate">19420327</element>
+<element tag="0010,0032" vr="TM" vm="0" len="0" name="PatientsBirthTime"></element>
+<element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientsSex">F</element>
+<element tag="0010,1000" vr="LO" vm="0" len="0" name="OtherPatientIDs"></element>
+<element tag="0010,1001" vr="PN" vm="0" len="0" name="OtherPatientNames"></element>
+<element tag="0010,1010" vr="AS" vm="1" len="4" name="PatientsAge">070Y</element>
+<element tag="0010,1090" vr="LO" vm="0" len="0" name="MedicalRecordLocator"></element>
+<element tag="0010,2160" vr="SH" vm="0" len="0" name="EthnicGroup"></element>
+<element tag="0010,21b0" vr="LT" vm="0" len="0" name="AdditionalPatientHistory"></element>
+<element tag="0010,4000" vr="LT" vm="0" len="0" name="PatientComments"></element>
+<element tag="0018,0015" vr="CS" vm="1" len="6" name="BodyPartExamined">BREAST</element>
+<element tag="0018,0060" vr="DS" vm="1" len="2" name="KVP">28</element>
+<element tag="0018,1000" vr="LO" vm="1" len="14" name="DeviceSerialNumber">H1KRHR84e302aa</element>
+<element tag="0018,1008" vr="LO" vm="1" len="10" name="Unknown Tag &amp; Data">selenia_01</element>
+<element tag="0018,1020" vr="LO" vm="4" len="56" name="SoftwareVersions">AWS:MAMMODROC_3_4_1_8\PXCM:1.4.0.7\ARR:1.7.3.10\IP:4.9.0</element>
+<element tag="0018,1030" vr="LO" vm="1" len="4" name="ProtocolName">R CC</element>
+<element tag="0018,1110" vr="DS" vm="1" len="4" name="DistanceSourceToDetector">660</element>
+<element tag="0018,1111" vr="DS" vm="1" len="4" name="DistanceSourceToPatient">640</element>
+<element tag="0018,1114" vr="DS" vm="1" len="6" name="EstimatedRadiographicMagnificationFactor">1.000</element>
+<element tag="0018,1147" vr="CS" vm="1" len="10" name="FieldOfViewShape">RECTANGLE</element>
+<element tag="0018,1150" vr="IS" vm="1" len="4" name="ExposureTime">745</element>
+<element tag="0018,1151" vr="IS" vm="1" len="4" name="XRayTubeCurrent">100</element>
+<element tag="0018,1152" vr="IS" vm="1" len="2" name="Exposure">75</element>
+<element tag="0018,1153" vr="IS" vm="1" len="6" name="ExposureInMicroAs">74500</element>
+<element tag="0018,1164" vr="DS" vm="2" len="10" name="ImagerPixelSpacing">.070\.070</element>
+<element tag="0018,1166" vr="CS" vm="1" len="6" name="Grid">HTC_IN</element>
+<element tag="0018,1190" vr="DS" vm="1" len="4" name="FocalSpots">0.3</element>
+<element tag="0018,1191" vr="CS" vm="1" len="10" name="AnodeTargetMaterial">MOLYBDENUM</element>
+<element tag="0018,11a0" vr="DS" vm="1" len="4" name="BodyPartThickness">47.0</element>
+<element tag="0018,11a2" vr="DS" vm="1" len="10" name="CompressionForce">212.00200</element>
+<element tag="0018,1200" vr="DA" vm="1" len="8" name="DateOfLastCalibration">20121023</element>
+<element tag="0018,1201" vr="TM" vm="1" len="6" name="TimeOfLastCalibration">074506</element>
+<element tag="0018,1400" vr="LO" vm="0" len="0" name="AcquisitionDeviceProcessingDescription"></element>
+<element tag="0018,1401" vr="LO" vm="0" len="0" name="AcquisitionDeviceProcessingCode"></element>
+<element tag="0018,1405" vr="IS" vm="1" len="4" name="RelativeXRayExposure">400</element>
+<element tag="0018,1508" vr="CS" vm="1" len="12" name="PositionerType">MAMMOGRAPHIC</element>
+<element tag="0018,1510" vr="DS" vm="1" len="2" name="PositionerPrimaryAngle">0</element>
+<element tag="0018,1511" vr="DS" vm="0" len="0" name="PositionerSecondaryAngle"></element>
+<element tag="0018,5101" vr="CS" vm="1" len="2" name="ViewPosition">CC</element>
+<element tag="0018,6000" vr="DS" vm="0" len="0" name="Sensitivity"></element>
+<element tag="0018,7000" vr="CS" vm="1" len="4" name="DetectorConditionsNominalFlag">YES</element>
+<element tag="0018,7001" vr="DS" vm="1" len="6" name="DetectorTemperature">29.76</element>
+<element tag="0018,7004" vr="CS" vm="1" len="6" name="DetectorType">DIRECT</element>
+<element tag="0018,7005" vr="CS" vm="1" len="4" name="DetectorConfiguration">AREA</element>
+<element tag="0018,7006" vr="LT" vm="1" len="48" name="DetectorDescription">Vendor: DRC; Product: BRICK/ARRAY; Version: v1.0</element>
+<element tag="0018,700a" vr="SH" vm="1" len="8" name="DetectorID">MM600084</element>
+<element tag="0018,700c" vr="DA" vm="1" len="8" name="DateOfLastDetectorCalibration">20121023</element>
+<element tag="0018,700e" vr="TM" vm="1" len="6" name="TimeOfLastDetectorCalibration">074506</element>
+<element tag="0018,7024" vr="CS" vm="1" len="10" name="DetectorActiveShape">RECTANGLE</element>
+<element tag="0018,7026" vr="DS" vm="2" len="8" name="DetectorActiveDimensions">250\286</element>
+<element tag="0018,7030" vr="DS" vm="2" len="6" name="FieldOfViewOrigin">0\256</element>
+<element tag="0018,7032" vr="DS" vm="1" len="2" name="FieldOfViewRotation">0</element>
+<element tag="0018,7034" vr="CS" vm="1" len="2" name="FieldOfViewHorizontalFlip">NO</element>
+<element tag="0018,7048" vr="DS" vm="0" len="0" name="GridPeriod"></element>
+<element tag="0018,7050" vr="CS" vm="1" len="10" name="FilterMaterial">MOLYBDENUM</element>
+<element tag="0018,7052" vr="DS" vm="1" len="4" name="FilterThicknessMinimum">.03</element>
+<element tag="0018,7054" vr="DS" vm="1" len="4" name="FilterThicknessMaximum">.03</element>
+<element tag="0018,7060" vr="CS" vm="1" len="12" name="ExposureControlMode">AUTO_FILTER</element>
+<element tag="0018,7062" vr="LT" vm="1" len="14" name="ExposureControlModeDescription">LORAD AUTO AEC</element>
+<element tag="0018,7064" vr="CS" vm="1" len="6" name="ExposureStatus">NORMAL</element>
+<element tag="0019,0010" vr="LO" vm="1" len="14" name="PrivateCreator">LORAD Selenia</element>
+<element tag="0019,1006" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1007" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1008" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1026" vr="UN" vm="1" len="16" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1027" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1028" vr="UN" vm="1" len="12" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1029" vr="UN" vm="1" len="32" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1030" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1031" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1032" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1033" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1034" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1035" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1040" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1041" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1050" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1051" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1052" vr="UN" vm="1" len="2" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1053" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1070" vr="UN" vm="1" len="0" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1071" vr="UN" vm="1" len="0" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1080" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1081" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1082" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1083" vr="UN" vm="1" len="16" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1084" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1085" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1086" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1087" vr="UN" vm="1" len="16" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1088" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1089" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1090" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1091" vr="UN" vm="1" len="16" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1097" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0019,1098" vr="UN" vm="1" len="4" name="Unknown Tag &amp; Data" binary="hidden"></element>
+<element tag="0020,000d" vr="UI" vm="1" len="44" name="StudyInstanceUID">1.2.840.113681.2229469866.2110.3528445191.50</element>
+<element tag="0020,000e" vr="UI" vm="1" len="46" name="SeriesInstanceUID">1.2.840.113681.2229469866.2110.3528445191.51.1</element>
+<element tag="0020,0010" vr="SH" vm="1" len="10" name="StudyID">000072280</element>
+<element tag="0020,0011" vr="IS" vm="1" len="2" name="SeriesNumber">1</element>
+<element tag="0020,0012" vr="IS" vm="0" len="0" name="AcquisitionNumber"></element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">9</element>
+<element tag="0020,0020" vr="CS" vm="2" len="4" name="PatientOrientation">P\L</element>
+<element tag="0020,0060" vr="CS" vm="0" len="0" name="Laterality"></element>
+<element tag="0020,0062" vr="CS" vm="1" len="2" name="ImageLaterality">R</element>
+<element tag="0020,1002" vr="IS" vm="1" len="2" name="ImagesInAcquisition">1</element>
+<element tag="0020,1070" vr="IS" vm="0" len="0" name="OtherStudyNumbers"></element>
+<element tag="0020,1208" vr="IS" vm="1" len="2" name="NumberOfStudyRelatedInstances">2</element>
+<element tag="0020,4000" vr="LT" vm="0" len="0" name="ImageComments"></element>
+<element tag="0028,0002" vr="US" vm="1" len="2" name="SamplesPerPixel">1</element>
+<element tag="0028,0004" vr="CS" vm="1" len="12" name="PhotometricInterpretation">MONOCHROME2</element>
+<element tag="0028,0010" vr="US" vm="1" len="2" name="Rows">4096</element>
+<element tag="0028,0011" vr="US" vm="1" len="2" name="Columns">3328</element>
+<element tag="0028,0030" vr="DS" vm="2" len="14" name="PixelSpacing">0.0700\0.0700</element>
+<element tag="0028,0034" vr="IS" vm="2" len="8" name="PixelAspectRatio">180\180</element>
+<element tag="0028,0100" vr="US" vm="1" len="2" name="BitsAllocated">16</element>
+<element tag="0028,0101" vr="US" vm="1" len="2" name="BitsStored">12</element>
+<element tag="0028,0102" vr="US" vm="1" len="2" name="HighBit">11</element>
+<element tag="0028,0103" vr="US" vm="1" len="2" name="PixelRepresentation">0</element>
+<element tag="0028,0120" vr="US" vm="1" len="2" name="PixelPaddingValue">0</element>
+<element tag="0028,0301" vr="CS" vm="1" len="2" name="BurnedInAnnotation">NO</element>
+<element tag="0028,1040" vr="CS" vm="1" len="4" name="PixelIntensityRelationship">LOG</element>
+<element tag="0028,1041" vr="SS" vm="1" len="2" name="PixelIntensityRelationshipSign">-1</element>
+<element tag="0028,1050" vr="DS" vm="1" len="4" name="WindowCenter">2047</element>
+<element tag="0028,1051" vr="DS" vm="1" len="4" name="WindowWidth">4096</element>
+<element tag="0028,1052" vr="DS" vm="1" len="2" name="RescaleIntercept">0</element>
+<element tag="0028,1053" vr="DS" vm="1" len="2" name="RescaleSlope">1</element>
+<element tag="0028,1054" vr="LO" vm="1" len="2" name="RescaleType">US</element>
+<element tag="0028,1300" vr="CS" vm="1" len="2" name="ImplantPresent">NO</element>
+<element tag="0028,1350" vr="CS" vm="0" len="0" name="PartialView"></element>
+<element tag="0028,1351" vr="ST" vm="0" len="0" name="PartialViewDescription"></element>
+<element tag="0028,2110" vr="CS" vm="1" len="2" name="LossyImageCompression">00</element>
+<element tag="0032,000c" vr="CS" vm="0" len="0" name="StudyPriorityID"></element>
+<element tag="0032,1000" vr="DA" vm="0" len="0" name="ScheduledStudyStartDate"></element>
+<element tag="0032,1001" vr="TM" vm="0" len="0" name="ScheduledStudyStartTime"></element>
+<element tag="0032,1030" vr="LO" vm="1" len="10" name="ReasonForStudy">DIAGNOSTIC</element>
+<element tag="0032,1032" vr="PN" vm="0" len="0" name="RequestingPhysician"></element>
+<element tag="0032,1060" vr="LO" vm="1" len="30" name="RequestedProcedureDescription">Unilateral Mammography, Right</element>
+<element tag="0032,4000" vr="LT" vm="0" len="0" name="StudyComments"></element>
+<element tag="0038,0010" vr="LO" vm="1" len="10" name="AdmissionID">000072280</element>
+<element tag="0038,0016" vr="LO" vm="0" len="0" name="RouteOfAdmissions"></element>
+<element tag="0038,0020" vr="DA" vm="0" len="0" name="AdmittingDate"></element>
+<element tag="0038,0021" vr="TM" vm="0" len="0" name="AdmittingTime"></element>
+<element tag="0038,0300" vr="LO" vm="0" len="0" name="CurrentPatientLocation"></element>
+<element tag="0040,0253" vr="SH" vm="1" len="4" name="PerformedProcedureStepID">UMR</element>
+<element tag="0040,0254" vr="LO" vm="1" len="30" name="PerformedProcedureStepDescription">Unilateral Mammography, Right</element>
+<element tag="0040,0302" vr="US" vm="1" len="2" name="EntranceDose">0</element>
+<element tag="0040,0314" vr="DS" vm="1" len="6" name="HalfValueLayer">0.392</element>
+<element tag="0040,0316" vr="DS" vm="1" len="6" name="OrganDose">0.0184</element>
+<element tag="0040,0318" vr="CS" vm="1" len="6" name="OrganExposed">BREAST</element>
+<sequence tag="0040,0555" vr="SQ" card="0" len="0" name="AcquisitionContextSequence">
+</sequence>
+<element tag="0040,1003" vr="SH" vm="0" len="0" name="RequestedProcedurePriority"></element>
+<element tag="0040,1004" vr="LO" vm="0" len="0" name="PatientTransportArrangements"></element>
+<element tag="0040,1010" vr="PN" vm="0" len="0" name="NamesOfIntendedRecipientsOfResults"></element>
+<element tag="0040,8302" vr="DS" vm="1" len="4" name="EntranceDoseInmGy">8.73</element>
+<element tag="0050,0004" vr="CS" vm="1" len="2" name="CalibrationImage">NO</element>
+<sequence tag="0054,0220" vr="SQ" card="1" len="70" name="ViewCodeSequence">
+<item card="4" len="62">
+<element tag="0008,0100" vr="SH" vm="1" len="8" name="CodeValue">R-10242</element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">SNM3</element>
+<element tag="0008,0104" vr="LO" vm="1" len="14" name="CodeMeaning">cranio-caudal</element>
+<sequence tag="0054,0222" vr="SQ" card="0" len="0" name="ViewModifierCodeSequence">
+</sequence>
+</item>
+</sequence>
+<element tag="07a1,0010" vr="LO" vm="1" len="8" name="PrivateCreator">ELSCINT1</element>
+<element tag="07a1,1002" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<element tag="07a1,102a" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">READ</element>
+<element tag="07a1,1040" vr="CS" vm="1" len="6" name="Unknown Tag &amp; Data">BREAST</element>
+<element tag="07a1,1043" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">1</element>
+<element tag="07a1,1050" vr="US" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="07a1,1085" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">3</element>
+<element tag="07a1,1088" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a1,1098" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a3,0010" vr="LO" vm="1" len="8" name="PrivateCreator">ELSCINT1</element>
+<element tag="07a3,1001" vr="LO" vm="1" len="4" name="Unknown Tag &amp; Data">11.3</element>
+<element tag="07a3,1003" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a3,1034" vr="SH" vm="1" len="6" name="Unknown Tag &amp; Data">25763</element>
+<element tag="07a3,1055" vr="SH" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a3,1099" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a3,109c" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a3,10b9" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a3,10bb" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="07a5,0010" vr="LO" vm="1" len="8" name="PrivateCreator">ELSCINT1</element>
+<element tag="07a5,1000" vr="LO" vm="1" len="12" name="Unknown Tag &amp; Data">CMGALINDO@IC</element>
+<element tag="07a5,1056" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2050,0020" vr="CS" vm="1" len="8" name="PresentationLUTShape">IDENTITY</element>
+<element tag="7fe0,0010" vr="OW" vm="1" len="27262976" name="PixelData" loaded="no" binary="hidden"></element>
+</data-set>
+</file-format>
